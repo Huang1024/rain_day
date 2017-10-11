@@ -1,7 +1,10 @@
 package com.hht.practice.jdk8.methodReferences;
 
+import java.lang.reflect.Method;
+import java.lang.reflect.Parameter;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 import java.util.function.Supplier;
 
 /**
@@ -54,6 +57,7 @@ public class Test {
         // 以上都是没有入参或者一个入参的方法，forEach会自动返回一个参数，所以以上方法适用，compare方法是两个入参
         final Test[] testArray = new Test[]{test};
         Arrays.sort(testArray, Test::compare);
+
     }
 
 }
