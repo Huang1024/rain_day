@@ -1,10 +1,7 @@
 package com.hht.practice.jdk8.methodReferences;
 
-import java.lang.reflect.Method;
-import java.lang.reflect.Parameter;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Optional;
 import java.util.function.Supplier;
 
 /**
