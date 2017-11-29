@@ -15,7 +15,9 @@ import java.net.UnknownHostException;
 @SpringBootApplication
 @RestController
 @Slf4j
+//@EnableScheduling
 public class RainDayApplication {
+
 
 	@Value("${author.name}")
 	private String authorName;
